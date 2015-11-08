@@ -63,14 +63,14 @@ bool heap_encolar(heap_t *heap, void *elem);
  * NULL. 
  * Pre: el heap fue creado.
  */
-void *heap_ver_max(const heap_t *heap);
+void* heap_ver_max(const heap_t *heap);
 
 /* Elimina el elemento con máxima prioridad, y lo devuelve.
  * Si el heap esta vacío, devuelve NULL.
  * Pre: el heap fue creado.
  * Post: el elemento desencolado ya no se encuentra en el heap. 
  */
-void *heap_desencolar(heap_t *heap);
+void* heap_desencolar(heap_t *heap);
 
 
 void pruebas_heap_alumno(void);
